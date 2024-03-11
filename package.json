@@ -5,6 +5,8 @@
     "docs:preview": "vitepress preview docs"
   },
   "devDependencies": {
-    "vitepress": "^1.0.0-rc.44"
+    "vitepress": "^1.0.0-rc.44",
+    "vitepress-sidebar": "^1.19.0",
+    "vue": "^3.4.21"
   }
 }

@@ -10,11 +10,11 @@ hero:
   actions:
     - theme: brand
       text: 中文(简体)
-      link: /zhCN/index
+      link: /zhCN/
     - theme: alt
       text: English(US)
-      link: /enUS/index
+      link: /enUS/
   image:
-    src: /Icons/HomeIcons/Language.png
+    src: /docs/Language.png
     alt: SelectLanguage
 ---

@@ -21,3 +21,7 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
+
+:::warning
+这个网站使用了大量的高分辨率图片，如果你正在使用移动数据或其它按流量大小计费的服务且服务较贵，那么我不推荐你在图片默认加载的情况下浏览此网站，这样做可能会大量消耗你的带宽.
+:::

@@ -1,24 +1,14 @@
 ---
-layout: home
 
-hero:
-  name: "Starcloudsea 的动态"
-  text: "发的最多也发的最快"
-  tagline: 就是发的有点摆烂¯\_(ツ)_/¯
-  actions:
-    - theme: brand
-      text: 看看我最新发了什么（
-      link: ./src/Last/PendingChange
-    - theme: alt
-      text: 或者看看我最喜欢的一个动态😝
-      link: ./src/Favorite/PendingChange
+title: Home
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
+<subhome
+    title="Starcloudsea的动态" 
+    subtitle="正在发一堆没用的东西" 
+    tagline="能把文档专用的VitePress写成Blog的Starcloudsea是屑
+    ...( ＿ ＿)ノ｜"
+    tiptitle="<- 在侧边栏查看更多.">
+    <img src="/docs/Shared/Blogs/Newsfeed/NewsfeedHome.png" alt="动态的主页的图片" title="轻松很多的东西(好耶！没审核啦！(雾))" class="subhomeimg"/>
+</subhome>
