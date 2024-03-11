@@ -2,16 +2,16 @@
 layout: home
 
 hero:
-  name: "Starcloudsea 的动态"
-  text: "发的最多也发的最快"
-  tagline: 就是发的有点摆烂¯\_(ツ)_/¯
+  name: "Starcloudsea 的Blogs"
+  text: "发一堆没用的东西"
+  tagline: (づ￣ 3￣)づ~
   actions:
     - theme: brand
-      text: 看看我最新发了什么（
-      link: ./src/Last/PendingChange
+      text: 看我动态发了啥（
+      link: ./Texts/Newsfeed/Home
     - theme: alt
-      text: 或者看看我最喜欢的一个动态😝
-      link: ./src/Favorite/PendingChange
+      text: 或者看看我的作品吧（。＾▽＾）
+      link: ./Resources/Home
 
 features:
   - title: Feature A
@@ -21,4 +21,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

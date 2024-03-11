@@ -2,15 +2,15 @@
 layout: home
 
 hero:
-  name: "Starcloudsea 的动态"
-  text: "发的最多也发的最快"
-  tagline: 就是发的有点摆烂¯\_(ツ)_/¯
+  name: "Starcloudsea 的文章"
+  text: "(这个总算会写的专业点了)"
+  tagline: 但也没多专业😖
   actions:
     - theme: brand
-      text: 看看我最新发了什么（
+      text: 看看我又写了什么awa
       link: ./src/Last/PendingChange
     - theme: alt
-      text: 或者看看我最喜欢的一个动态😝
+      text: 或者看看我最满意的文章😆
       link: ./src/Favorite/PendingChange
 
 features:
@@ -21,4 +21,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

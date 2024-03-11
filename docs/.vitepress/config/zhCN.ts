@@ -6,15 +6,52 @@ export const zhCNConfig = defineConfig({
   title: "Starcloudsea D&B",
   description: "啥都想搞的Starcloudsea怪物的博客和文档，\"完全不懂\"剪视频和写代码(但会晚上爬你窗子ψ(｀∇´)ψ)",
   themeConfig: {
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      'zhCN/Blogs/Texts/Newsfeed/': [
+        { text: 'Home', link: '/zhCN/Blogs/Texts/Newsfeed/Home' },
+        {
+          text: 'Starcloudsea的收藏',
+          items: [
+            { text: 'Test', link: '/zhCN/Blogs/Texts/Newsfeed/src/Favorite/PendingChange' },
+          ]
+        },
+        {
+          text: 'Starcloudsea的最新发布',
+          items: [
+            { text: 'Test', link: '/zhCN/Blogs/Texts/Newsfeed/src/Last/PendingChange' },
+          ]
+        },
+        {
+          text: '其它动态(也许特别多)',
+          items: [
+            { text: 'Test', link: '/zhCN/Blogs/Texts/Newsfeed/src/Last/PendingChange' },
+          ]
+        }
+      ],
+
+      'zhCN/Blogs/Texts/Articles/': [
+        { text: 'Home', link: '/zhCN/Blogs/Texts/Articles/Home' },
+        {
+          text: 'Starcloudsea的收藏',
+          items: [
+            { text: 'Test', link: '/zhCN/Blogs/Texts/Articles/src/Favorite/PendingChange' },
+          ]
+        },
+        {
+          text: 'Starcloudsea的最新发布',
+          items: [
+            { text: 'Test', link: '/zhCN/Blogs/Texts/Articles/src/Last/PendingChange' },
+          ]
+        },
+        {
+          text: '其它文章(也许特别多)',
+          items: [
+            { text: 'Test', link: '/zhCN/Blogs/Texts/Articles/src/Last/PendingChange' },
+          ]
+        }
+      ],
+
+    },
 
     nav: [
       { text: 'Home', link: '/zhCN/' },

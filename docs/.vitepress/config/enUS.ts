@@ -18,7 +18,6 @@ export const enUSConfig = defineConfig({
           { 
             text: 'Texts',
             items: [
-              { text: 'Newsfeed', link: '/enUS/Blogs/Texts/Newsfeed' },
               { text: 'Articles', link: '/enUS/Blogs/Texts/Articles' },
             ] 
           },
