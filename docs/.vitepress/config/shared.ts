@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export const sharedConfig = defineConfig({
+  base: '/StarseaDB/',
   title: "Starcloudsea D&B",
   description: "The blog and documentation of the Nebula Sea Monster, who wants to do everything but \"doesn't know anything\" about editing videos and writing code (but will climb up to your window at night ψ(｀∇´)ψ)",
   head: [
@@ -69,7 +70,7 @@ export const sharedConfig = defineConfig({
     },
 
     footer: {
-      message: 'The site uses the <a href="https://github.com/Starcloudsea/StarseaDB.github.io/blob/main/LICENSE">Apache 2.0</a> open source protocol and is deployed on <a href="https://github.com/Starcloudsea/StarseaDB.github.io">GitHub Pages</a>. (Please give me a Star QAQ)<br/><strong>All content created and published by Starcloudsea</strong> on this site is shared under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"</a>CC BY-NC-SA 4.0</a> license for non-commercial content and the <a href="https://creativecommons.org/licenses/by-sa/4.0/"</a>CC BY-SA 4.0</a> license for commercial content, <strong>where not otherwise indicated</strong>.',
+      message: 'The site uses the <a href="https://github.com/Starcloudsea/StarseaDB/blob/main/LICENSE">Apache 2.0</a> open source protocol and is deployed on <a href="https://github.com/Starcloudsea/StarseaDB">GitHub Pages</a>. (Please give me a Star QAQ)<br/><strong>All content created and published by Starcloudsea</strong> on this site is shared under the <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"</a>CC BY-NC-SA 4.0</a> license for non-commercial content and the <a href="https://creativecommons.org/licenses/by-sa/4.0/"</a>CC BY-SA 4.0</a> license for commercial content, <strong>where not otherwise indicated</strong>.',
       copyright: 'Copyright 2024 Starcloudsea & BadMC Studio'
     },
 
