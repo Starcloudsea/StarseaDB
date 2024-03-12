@@ -15,7 +15,7 @@ const { site } = useData()
       <br/>If this is indeed a bug, please open an issues on GitHub.
     </p>
     <div class="action">
-      <a class="VPButton medium brand" data-v-2dba8ca9 :href="site.base" aria-label="Back to Home"> Back to Home </a>
+      <a class="brandbutton" :href="site.base" aria-label="Back to Home"> Back to Home </a>
     </div>
   </div>
 </template>

@@ -5,6 +5,7 @@ import DefaultTheme from 'vitepress/theme'
 import SubHome from './components/SubHome/SubHome.vue'
 import ImageView from './components/ImageView/ImageView.vue'
 import NotFound from './components/NotFound/NotFound.vue'
+import Commentaries from './components/Commentaries/Commentaries.vue'
 import './style.css'
 
 export default {
@@ -12,6 +13,7 @@ export default {
   Layout: () => {
     return h(DefaultTheme.Layout, null, {
       'not-found': () => h(NotFound),
+      'doc-after': () => h(Commentaries),
     })
   },
   enhanceApp({ app, router, siteData }) {
