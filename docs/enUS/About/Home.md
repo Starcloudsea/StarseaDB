@@ -6,7 +6,7 @@ title: Home
 
 <subhome
     title="Starcloudsea" 
-    subtitle="某个不正常的Minecraft玩家" 
+    subtitle="A Minecraft player" 
     tagline="I want to do everything (I am so tired QAQ)">
     <img src="/docs/Shared/About/Home/EllipseStarcloudsea.png" alt="Pictures of the home page of the About Starcloudsea page" title="I didn't find it online, I made it myself~" style="max-width: 200px; max-height: 200px; padding-bottom: 30px;"/>
 </subhome>

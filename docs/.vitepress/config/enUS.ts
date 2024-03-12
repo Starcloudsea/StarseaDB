@@ -167,7 +167,7 @@ export const enUSConfig = defineConfig({
           { 
             text: 'Text',
             items: [
-              { text: 'News', link: '/enUS/Blogs/Texts/Newsfeed/Home' },
+              { text: 'News', link: '/enUS/Blogs/Texts/News/Home' },
               { text: 'Articles', link: '/enUS/Blogs/Texts/Articles/Home' },
             ] 
           },
