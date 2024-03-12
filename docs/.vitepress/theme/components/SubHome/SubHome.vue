@@ -9,9 +9,9 @@
         <p v-if="subtitle" data-v-72cc4481 class="text">{{ subtitle }}</p>
         <p v-if="tagline" data-v-72cc4481 class="tagline">{{ tagline }}</p>
         <div data-v-72cc4481 class="action">
-            <a data-v-2dba8ca9 :class="item.class" v-for="item in buttons" :href="item.link" :key="item">{{ item.text }}</a>
+            <a data-v-2dba8ca9 :target="item.target" :class="item.class" v-for="item in buttons" :href="item.link" :key="item">{{ item.text }}</a>
         </div>
-        <h1 v-if="tiptitle">{{ tiptitle }}</h1>
+        <h1 style="margin-top: 30px;" v-if="tiptitle">{{ tiptitle }}</h1>
     </div>
 </template>
 

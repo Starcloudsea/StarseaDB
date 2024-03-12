@@ -8,7 +8,7 @@ title: Home
     title="Starcloudsea" 
     subtitle="某不正经Minecraft玩家" 
     tagline="啥都想做一点(好累啊我QAQ)">
-    <img src="/docs/Shared/About/Home/EllipseStarcloudsea.png" alt="图库的主页的图片" title="你的图片卡这114分钟了一动不动，大概没救了(雾)" style="max-width: 200px; max-height: 200px; padding-bottom: 30px;"/>
+    <img src="/docs/Shared/About/Home/EllipseStarcloudsea.png" alt="关于Starcloudsea的主页的图片" title="没有，自己做的~" style="max-width: 200px; max-height: 200px; padding-bottom: 30px;"/>
 </subhome>
 
 # 正在创作: 一堆东西

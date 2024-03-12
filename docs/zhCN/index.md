@@ -2,6 +2,9 @@
 layout: home
 
 hero:
+  image:
+    src: /docs/Shared/MainHome.png
+    alt: Main HomeImage
   name: "Starcloudsea D&B"
   text: "某不正经Starcloudsea网站🤪"
   tagline: 啥都想搞的Starcloudsea怪物的博客和文档，"完全不懂"剪视频和写代码(但会晚上爬你窗子ψ(｀∇´)ψ)
@@ -13,13 +16,25 @@ hero:
       text: Docs
       link: /zhCN/Docs/Home
 
-features:
-  - title: BlockMetro.Avalonia
+features:  
+  - icon: 
+      src: /docs/Shared/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/BlockMetroAvalonia.png
+    title: BlockMetro.Avalonia
     details: 你应该知道Starcloudsea有多喜欢Windows 8.1的MetroUI吧（
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    link: ./Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/Home
+  - icon: 
+      src: /docs/Shared/Docs/OtherPersonProjectDocs/MinecraftLaunch/MinecraftLaunch.png
+    title: MinecraftLaunch
+    details: 你应该知道Starcloudsea有多喜欢Windows 8.1的MetroUI吧（
+    link: ./Docs/OtherPersonProjectDocs/MinecraftLaunch/Home
+  - icon: 🖼️
+    title: 图库
+    details: 再渲亿点！
+    link: ./Blogs/MediaLibrary/Images/Home
+  - icon: 📽️
+    title: 视频
+    details: 做视频真的很累的，拜托看一下吧QAQ拜托o(TヘTo)
+    link: ./Blogs/MediaLibrary/Videos/Home
 ---
 
 :::warning

@@ -5,15 +5,6 @@ export const zhCNConfig = defineConfig({
   lang: 'zh-CN',
   title: "Starcloudsea D&B",
   description: "啥都想搞的Starcloudsea怪物的博客和文档，\"完全不懂\"剪视频和写代码(但会晚上爬你窗子ψ(｀∇´)ψ)",
-  markdown: {
-    container: {
-      tipLabel: '提示',
-      warningLabel: '警告',
-      dangerLabel: '危险',
-      infoLabel: '信息',
-      detailsLabel: '查看更多'
-    }
-  },
   themeConfig: {
     
     sidebar: generateSidebar([
@@ -30,11 +21,11 @@ export const zhCNConfig = defineConfig({
         collapseDepth: 10,
         rootGroupText: '关于Starcloudsea'
       },
-      //Blogs -> Texts : Newsfeed
+      //Blogs -> Texts : News
       {
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/Blogs/Texts/Newsfeed/',
-        resolvePath: 'zhCN/Blogs/Texts/Newsfeed/',
+        scanStartPath: 'zhCN/Blogs/Texts/News/',
+        resolvePath: 'zhCN/Blogs/Texts/News/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -100,9 +91,9 @@ export const zhCNConfig = defineConfig({
         sortMenusByName: true,
         includeEmptyFolder: true,
         collapseDepth: 10,
-        rootGroupText: '图库',
+        rootGroupText: '音频',
       },
-      //Blogs -> MediaLibrary : Audios
+      //Blogs -> MediaLibrary : Videos
       {
         documentRootPath: '/docs',
         scanStartPath: 'zhCN/Blogs/MediaLibrary/Videos/',
@@ -113,6 +104,54 @@ export const zhCNConfig = defineConfig({
         includeEmptyFolder: true,
         collapseDepth: 10,
         rootGroupText: '视频',
+      },
+      //Docs -> StarcloudseaProjectDocs : OtherDocs
+      {
+        documentRootPath: '/docs',
+        scanStartPath: 'zhCN/Docs/StarcloudseaProjectDocs/OtherDocs/',
+        resolvePath: 'zhCN/Docs/StarcloudseaProjectDocs/OtherDocs/',
+        useFolderTitleFromIndexFile: true,
+        useTitleFromFrontmatter: true,
+        sortMenusByName: true,
+        includeEmptyFolder: true,
+        collapseDepth: 10,
+        rootGroupText: '其它文档(Starcloudsea的项目)',
+      },
+      //Docs -> OtherPersonProjectDocs : OtherDocs
+      {
+        documentRootPath: '/docs',
+        scanStartPath: 'zhCN/Docs/OtherPersonProjectDocs/OtherDocs/',
+        resolvePath: 'zhCN/Docs/OtherPersonProjectDocs/OtherDocs/',
+        useFolderTitleFromIndexFile: true,
+        useTitleFromFrontmatter: true,
+        sortMenusByName: true,
+        includeEmptyFolder: true,
+        collapseDepth: 10,
+        rootGroupText: '其它文档(别人的项目)',
+      },
+      //Docs -> StarcloudseaProjectDocs : BlockMetro.Avalonia
+      {
+        documentRootPath: '/docs',
+        scanStartPath: 'zhCN/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/',
+        resolvePath: 'zhCN/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/',
+        useFolderTitleFromIndexFile: true,
+        useTitleFromFrontmatter: true,
+        sortMenusByName: true,
+        includeEmptyFolder: true,
+        collapseDepth: 10,
+        rootGroupText: 'BlockMetro.Avalonia',
+      },
+      //Docs -> StarcloudseaProjectDocs : MinecraftLaunch
+      {
+        documentRootPath: '/docs',
+        scanStartPath: 'zhCN/Docs/OtherPersonProjectDocs/MinecraftLaunch/',
+        resolvePath: 'zhCN/Docs/OtherPersonProjectDocs/MinecraftLaunch/',
+        useFolderTitleFromIndexFile: true,
+        useTitleFromFrontmatter: true,
+        sortMenusByName: true,
+        includeEmptyFolder: true,
+        collapseDepth: 10,
+        rootGroupText: 'MinecraftLaunch',
       },
     ]),
 
@@ -126,7 +165,7 @@ export const zhCNConfig = defineConfig({
           { 
             text: '文本',
             items: [
-              { text: '动态', link: '/zhCN/Blogs/Texts/Newsfeed/Home' },
+              { text: '动态', link: '/zhCN/Blogs/Texts/News/Home' },
               { text: '文章', link: '/zhCN/Blogs/Texts/Articles/Home' },
             ] 
           },
@@ -156,31 +195,31 @@ export const zhCNConfig = defineConfig({
             text: 'Starcloudsea项目的文档',
             items: [
               { text: 'BlockMetro.Avalonia', link: '/zhCN/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/Home' },
-              { text: '其它文档', link: '/zhCN/Docs/StarcloudseaProjectDocs/OtherDocuments/Home' },
+              { text: '其它文档', link: '/zhCN/Docs/StarcloudseaProjectDocs/OtherDocs/Home' },
             ]
           },
           {
             text: '别人项目的文档',
             items: [
-              { text: '其它文档', link: '/zhCN/Docs/OtherPersonProjectDocs/OtherDocuments/Home' },
+              { text: 'MinecraftLaunch', link: '/zhCN/Docs/OtherPersonProjectDocs/MinecraftLaunch/Home' },
+              { text: '其它文档', link: '/zhCN/Docs/OtherPersonProjectDocs/OtherDocs/Home' },
             ]
           },
         ]
       }
     ],
 
-
-    footer: {
-      message: '网站使用 <a href="https://github.com/Starcloudsea/StarseaDB.github.io/blob/main/LICENSE">Apache 2.0</a> 开源协议，并在 <a href="https://github.com/Starcloudsea/StarseaDB.github.io">GitHub Pages</a> 上部署(拜托给我点个Star QAQ)<br/>该网站<strong>由Starcloudsea创作并发布的所有内容</strong>在<strong>不特别标注</strong>的情况下，对于非商业内容，使用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"</a>CC BY-NC-SA 4.0</a>协议共享，对于商业内容，使用<a href="https://creativecommons.org/licenses/by-sa/4.0/"</a>CC BY-SA 4.0</a>协议共享',
-      copyright: '<a href="https://github.com/Starcloudsea">Starcloudsea</a> & <a href="https://github.com/BadMC-Studio">BadMC Studio</a> 版权所有 2024'
+    editLink: {
+      pattern: 'https://github.com/Starcloudsea/StarseaDB.github.io/docs/:path',
+      text: '在GitHub上查看或编辑此页'
     },
+
+    lastUpdatedText: "最近更新时间",
 
     docFooter: {
       prev: '转到上一页',
       next: '转到下一页'
     },
-
-    lastUpdatedText: "最近更新时间",
 
     lightModeSwitchTitle: '切换到浅色模式',
     darkModeSwitchTitle: '切换到深色模式',
@@ -192,5 +231,10 @@ export const zhCNConfig = defineConfig({
     langMenuLabel: '切换语言',
 
     externalLinkIcon: true,
+
+    footer: {
+      message: '网站使用 <a href="https://github.com/Starcloudsea/StarseaDB.github.io/blob/main/LICENSE">Apache 2.0</a> 开源协议，并在 <a href="https://github.com/Starcloudsea/StarseaDB.github.io">GitHub Pages</a> 上部署(拜托给我点个Star QAQ)<br/>该网站<strong>由Starcloudsea创作并发布的所有内容</strong>在<strong>不特别标注</strong>的情况下，对于非商业内容，使用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"</a>CC BY-NC-SA 4.0</a>协议共享，对于商业内容，使用<a href="https://creativecommons.org/licenses/by-sa/4.0/"</a>CC BY-SA 4.0</a>协议共享',
+      copyright: '<a href="https://github.com/Starcloudsea">Starcloudsea</a> & <a href="https://github.com/BadMC-Studio">BadMC Studio</a> 版权所有 2024'
+    },
   }
 })

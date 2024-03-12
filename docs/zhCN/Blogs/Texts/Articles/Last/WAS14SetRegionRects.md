@@ -6,7 +6,7 @@ title: WAS 1.4 更改标题栏拖拽区域
 
 自从Windows App SDK 1.4发布起，搜索结果的几个排在前面的文章中的更改标题栏可拖拽区域已经全部失效了，因为`SetDragRectangles`方法在Microsoft Learn中已经标记为"已废弃"，这意味这这个方法已经不能在新版Windows App SDK 1.4起作用(从没见过更新如此明显的库(雾))
 
-当然，Microsoft给了一个替代方法，这个方法是我在Microsoft Q&A问到的:)
+当然，Microsoft给了一个替代方法，这个方法是我在[Microsoft Q&A](https://learn.microsoft.com/en-us/answers/questions/1362230/how-to-fix-appwindow-titlebar-setdragrectangles-no)问到的:)
 
 代码如下：
 
@@ -17,7 +17,7 @@ var incps = InputNonClientPointerSource.GetForWindowId(myWndId);
 incps.SetRegionRects(NonClientRegionKind.Caption, new RectInt32[] { new RectInt32(X, Y, Width, Height) });  // [!code highlight]
 ```
 :::tip
-如果你在写了代码后报错，那么大概率是你没引用，引用就行了，或者是你的Windows App SDK版本太低或者太高(不会微软只用一些就给废弃了吧？（*゜ー゜*）)
+如果你在写了代码后报错，那么大概率是你没引用，引用就行了，或者是你的Windows App SDK版本太低或者太高(不会微软只用一会就给废弃了吧？（*゜ー゜*）)
 :::
 
 其中，X,Y表示横坐标和纵坐标，Width表示宽，Hight表示高.

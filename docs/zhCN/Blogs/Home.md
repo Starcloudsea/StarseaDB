@@ -13,7 +13,7 @@ hero:
   actions:
     - theme: brand
       text: 刚发的动态
-      link: ./Texts/Newsfeed/Home
+      link: ./Texts/News/Home
     - theme: alt
       text: 冷掉的文章
       link: ./Texts/Articles/Home
@@ -22,7 +22,7 @@ features:
   - icon: 🥶
     title: 动态
     details: 发的最快，发的最烂🤪
-    link: ./Texts/Newsfeed/Home
+    link: ./Texts/News/Home
   - icon: 🫥
     title: 文章
     details: 正常一些，但也没多正常😝
