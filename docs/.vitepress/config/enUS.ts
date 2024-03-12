@@ -180,7 +180,7 @@ export const enUSConfig = defineConfig({
             ] 
           },
           { 
-            text: '媒体库',
+            text: 'Media Library',
             items: [
               { text: 'Images', link: '/enUS/Blogs/MediaLibrary/Images/Home' },
               { text: 'Videos', link: '/enUS/Blogs/MediaLibrary/Videos/Home' },
@@ -212,7 +212,7 @@ export const enUSConfig = defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/Starcloudsea/StarseaDB.github.io/docs/:path',
+      pattern: 'https://github.com/Starcloudsea/StarseaDB.github.io/tree/main/docs/:path',
       text: 'View or edit this page on GitHub'
     },
 

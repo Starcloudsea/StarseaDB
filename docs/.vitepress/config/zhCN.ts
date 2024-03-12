@@ -210,7 +210,7 @@ export const zhCNConfig = defineConfig({
     ],
 
     editLink: {
-      pattern: 'https://github.com/Starcloudsea/StarseaDB.github.io/docs/:path',
+      pattern: 'https://github.com/Starcloudsea/StarseaDB.github.io/tree/main/docs/:path',
       text: '在GitHub上查看或编辑此页'
     },
 
