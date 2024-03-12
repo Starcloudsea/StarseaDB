@@ -15,7 +15,7 @@ export const enUSConfig = defineConfig({
         debugPrint: true,
         documentRootPath: '/docs',
         scanStartPath: 'enUS/About/',
-        resolvePath: 'enUS/About/',
+        resolvePath: '/enUS/About/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -26,8 +26,8 @@ export const enUSConfig = defineConfig({
       //Blogs -> Texts : News
       {
         documentRootPath: '/docs',
-        scanStartPath: 'enUS/Blogs/Texts/News/',
-        resolvePath: 'enUS/Blogs/Texts/News/',
+        scanStartPath: 'enUS/Blogs/Texts/News',
+        resolvePath: '/enUS/Blogs/Texts/News/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -38,8 +38,8 @@ export const enUSConfig = defineConfig({
       //Blogs -> Texts : Articles
       {
         documentRootPath: '/docs',
-        scanStartPath: 'enUS/Blogs/Texts/Articles/',
-        resolvePath: 'enUS/Blogs/Texts/Articles/',
+        scanStartPath: 'enUS/Blogs/Texts/Articles',
+        resolvePath: '/enUS/Blogs/Texts/Articles/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -50,8 +50,8 @@ export const enUSConfig = defineConfig({
       //Blogs -> Resources : Pieces
       {
         documentRootPath: '/docs',
-        scanStartPath: 'enUS/Blogs/Resources/Pieces/',
-        resolvePath: 'enUS/Blogs/Resources/Pieces/',
+        scanStartPath: 'enUS/Blogs/Resources/Pieces',
+        resolvePath: '/enUS/Blogs/Resources/Pieces/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -62,8 +62,8 @@ export const enUSConfig = defineConfig({
       //Blogs -> Resources : Share
       {
         documentRootPath: '/docs',
-        scanStartPath: 'enUS/Blogs/Resources/Share/',
-        resolvePath: 'enUS/Blogs/Resources/Share/',
+        scanStartPath: 'enUS/Blogs/Resources/Share',
+        resolvePath: '/enUS/Blogs/Resources/Share/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -74,8 +74,8 @@ export const enUSConfig = defineConfig({
       //Blogs -> MediaLibrary : Images
       {
         documentRootPath: '/docs',
-        scanStartPath: 'enUS/Blogs/MediaLibrary/Images/',
-        resolvePath: 'enUS/Blogs/MediaLibrary/Images/',
+        scanStartPath: 'enUS/Blogs/MediaLibrary/Images',
+        resolvePath: '/enUS/Blogs/MediaLibrary/Images/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -86,8 +86,8 @@ export const enUSConfig = defineConfig({
       //Blogs -> MediaLibrary : Audios
       {
         documentRootPath: '/docs',
-        scanStartPath: 'enUS/Blogs/MediaLibrary/Audios/',
-        resolvePath: 'enUS/Blogs/MediaLibrary/Audios/',
+        scanStartPath: 'enUS/Blogs/MediaLibrary/Audios',
+        resolvePath: '/enUS/Blogs/MediaLibrary/Audios/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -98,8 +98,8 @@ export const enUSConfig = defineConfig({
       //Blogs -> MediaLibrary : Videos
       {
         documentRootPath: '/docs',
-        scanStartPath: 'enUS/Blogs/MediaLibrary/Videos/',
-        resolvePath: 'enUS/Blogs/MediaLibrary/Videos/',
+        scanStartPath: 'enUS/Blogs/MediaLibrary/Videos',
+        resolvePath: '/enUS/Blogs/MediaLibrary/Videos/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -110,8 +110,8 @@ export const enUSConfig = defineConfig({
       //Docs -> StarcloudseaProjectDocs : OtherDocs
       {
         documentRootPath: '/docs',
-        scanStartPath: 'enUS/Docs/StarcloudseaProjectDocs/OtherDocs/',
-        resolvePath: 'enUS/Docs/StarcloudseaProjectDocs/OtherDocs/',
+        scanStartPath: 'enUS/Docs/StarcloudseaProjectDocs/OtherDocs',
+        resolvePath: '/enUS/Docs/StarcloudseaProjectDocs/OtherDocs/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -122,8 +122,8 @@ export const enUSConfig = defineConfig({
       //Docs -> OtherPersonProjectDocs : OtherDocs
       {
         documentRootPath: '/docs',
-        scanStartPath: 'enUS/Docs/OtherPersonProjectDocs/OtherDocs/',
-        resolvePath: 'enUS/Docs/OtherPersonProjectDocs/OtherDocs/',
+        scanStartPath: 'enUS/Docs/OtherPersonProjectDocs/OtherDocs',
+        resolvePath: '/enUS/Docs/OtherPersonProjectDocs/OtherDocs/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -134,8 +134,8 @@ export const enUSConfig = defineConfig({
       //Docs -> StarcloudseaProjectDocs : BlockMetro.Avalonia
       {
         documentRootPath: '/docs',
-        scanStartPath: 'enUS/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/',
-        resolvePath: 'enUS/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/',
+        scanStartPath: 'enUS/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia',
+        resolvePath: '/enUS/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -146,8 +146,8 @@ export const enUSConfig = defineConfig({
       //Docs -> StarcloudseaProjectDocs : MinecraftLaunch
       {
         documentRootPath: '/docs',
-        scanStartPath: 'enUS/Docs/OtherPersonProjectDocs/MinecraftLaunch/',
-        resolvePath: 'enUS/Docs/OtherPersonProjectDocs/MinecraftLaunch/',
+        scanStartPath: 'enUS/Docs/OtherPersonProjectDocs/MinecraftLaunch',
+        resolvePath: '/enUS/Docs/OtherPersonProjectDocs/MinecraftLaunch/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,

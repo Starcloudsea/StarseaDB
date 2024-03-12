@@ -12,8 +12,8 @@ export const zhCNConfig = defineConfig({
       {
         debugPrint: true,
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/About/',
-        resolvePath: 'zhCN/About/',
+        scanStartPath: 'zhCN/About',
+        resolvePath: '/zhCN/About/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -24,8 +24,8 @@ export const zhCNConfig = defineConfig({
       //Blogs -> Texts : News
       {
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/Blogs/Texts/News/',
-        resolvePath: 'zhCN/Blogs/Texts/News/',
+        scanStartPath: 'zhCN/Blogs/Texts/News',
+        resolvePath: '/zhCN/Blogs/Texts/News/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -36,8 +36,8 @@ export const zhCNConfig = defineConfig({
       //Blogs -> Texts : Articles
       {
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/Blogs/Texts/Articles/',
-        resolvePath: 'zhCN/Blogs/Texts/Articles/',
+        scanStartPath: 'zhCN/Blogs/Texts/Articles',
+        resolvePath: '/zhCN/Blogs/Texts/Articles/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -48,8 +48,8 @@ export const zhCNConfig = defineConfig({
       //Blogs -> Resources : Pieces
       {
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/Blogs/Resources/Pieces/',
-        resolvePath: 'zhCN/Blogs/Resources/Pieces/',
+        scanStartPath: 'zhCN/Blogs/Resources/Pieces',
+        resolvePath: '/zhCN/Blogs/Resources/Pieces/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -60,8 +60,8 @@ export const zhCNConfig = defineConfig({
       //Blogs -> Resources : Share
       {
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/Blogs/Resources/Share/',
-        resolvePath: 'zhCN/Blogs/Resources/Share/',
+        scanStartPath: 'zhCN/Blogs/Resources/Share',
+        resolvePath: '/zhCN/Blogs/Resources/Share/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -72,8 +72,8 @@ export const zhCNConfig = defineConfig({
       //Blogs -> MediaLibrary : Images
       {
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/Blogs/MediaLibrary/Images/',
-        resolvePath: 'zhCN/Blogs/MediaLibrary/Images/',
+        scanStartPath: 'zhCN/Blogs/MediaLibrary/Images',
+        resolvePath: '/zhCN/Blogs/MediaLibrary/Images/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -84,8 +84,8 @@ export const zhCNConfig = defineConfig({
       //Blogs -> MediaLibrary : Audios
       {
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/Blogs/MediaLibrary/Audios/',
-        resolvePath: 'zhCN/Blogs/MediaLibrary/Audios/',
+        scanStartPath: 'zhCN/Blogs/MediaLibrary/Audios',
+        resolvePath: '/zhCN/Blogs/MediaLibrary/Audios/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -96,8 +96,8 @@ export const zhCNConfig = defineConfig({
       //Blogs -> MediaLibrary : Videos
       {
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/Blogs/MediaLibrary/Videos/',
-        resolvePath: 'zhCN/Blogs/MediaLibrary/Videos/',
+        scanStartPath: 'zhCN/Blogs/MediaLibrary/Videos',
+        resolvePath: '/zhCN/Blogs/MediaLibrary/Videos/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -108,8 +108,8 @@ export const zhCNConfig = defineConfig({
       //Docs -> StarcloudseaProjectDocs : OtherDocs
       {
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/Docs/StarcloudseaProjectDocs/OtherDocs/',
-        resolvePath: 'zhCN/Docs/StarcloudseaProjectDocs/OtherDocs/',
+        scanStartPath: 'zhCN/Docs/StarcloudseaProjectDocs/OtherDocs',
+        resolvePath: '/zhCN/Docs/StarcloudseaProjectDocs/OtherDocs/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -120,8 +120,8 @@ export const zhCNConfig = defineConfig({
       //Docs -> OtherPersonProjectDocs : OtherDocs
       {
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/Docs/OtherPersonProjectDocs/OtherDocs/',
-        resolvePath: 'zhCN/Docs/OtherPersonProjectDocs/OtherDocs/',
+        scanStartPath: 'zhCN/Docs/OtherPersonProjectDocs/OtherDocs',
+        resolvePath: '/zhCN/Docs/OtherPersonProjectDocs/OtherDocs/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -132,8 +132,8 @@ export const zhCNConfig = defineConfig({
       //Docs -> StarcloudseaProjectDocs : BlockMetro.Avalonia
       {
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/',
-        resolvePath: 'zhCN/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/',
+        scanStartPath: 'zhCN/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia',
+        resolvePath: '/zhCN/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
@@ -144,8 +144,8 @@ export const zhCNConfig = defineConfig({
       //Docs -> StarcloudseaProjectDocs : MinecraftLaunch
       {
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/Docs/OtherPersonProjectDocs/MinecraftLaunch/',
-        resolvePath: 'zhCN/Docs/OtherPersonProjectDocs/MinecraftLaunch/',
+        scanStartPath: 'zhCN/Docs/OtherPersonProjectDocs/MinecraftLaunch',
+        resolvePath: '/zhCN/Docs/OtherPersonProjectDocs/MinecraftLaunch/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
