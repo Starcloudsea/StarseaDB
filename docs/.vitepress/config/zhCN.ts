@@ -12,14 +12,14 @@ export const zhCNConfig = defineConfig({
       {
         debugPrint: true,
         documentRootPath: '/docs',
-        scanStartPath: 'zhCN/About',
-        resolvePath: '/zhCN/About/',
+        scanStartPath: 'zhCN/Other',
+        resolvePath: '/zhCN/Other/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
         includeEmptyFolder: true,
         collapseDepth: 10,
-        rootGroupText: '关于Starcloudsea'
+        rootGroupText: '其它'
       },
       //Blogs -> Texts : News
       {
@@ -157,7 +157,13 @@ export const zhCNConfig = defineConfig({
 
     nav: [
       { text: 'Home', link: '/zhCN/' },
-      { text: '关于Starcloudsea', link: '/zhCN/About/Home' },
+      { text: '其它', items: [
+        {text: '关于Starcloudsea', 
+          items: [
+            { text: 'Home', link: '/zhCN/Other/About/Home' },
+          ]},
+        {text: '友情链接', link: '/zhCN/Other/FriendlyLinks'},
+      ]},
       {
         text: 'Blogs',
         items: [

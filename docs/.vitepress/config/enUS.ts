@@ -14,14 +14,14 @@ export const enUSConfig = defineConfig({
       {
         debugPrint: true,
         documentRootPath: '/docs',
-        scanStartPath: 'enUS/About/',
-        resolvePath: '/enUS/About/',
+        scanStartPath: 'enUS/Other/',
+        resolvePath: '/enUS/Other/',
         useFolderTitleFromIndexFile: true,
         useTitleFromFrontmatter: true,
         sortMenusByName: true,
         includeEmptyFolder: true,
         collapseDepth: 10,
-        rootGroupText: 'About Starcloudsea'
+        rootGroupText: 'Other'
       },
       //Blogs -> Texts : News
       {
@@ -159,7 +159,13 @@ export const enUSConfig = defineConfig({
     
     nav: [
       { text: 'Home', link: '/enUS/' },
-      { text: 'About Starcloudsea', link: '/enUS/About/Home' },
+      { text: 'Other', items: [
+        {text: 'About Starcloudsea', 
+          items: [
+            { text: 'Home', link: '/zhCN/Other/About/Home' },
+          ]},
+        {text: 'Friendly Link', link: '/zhCN/Other/FriendlyLinks'},
+      ]},
       {
         text: 'Blogs',
         items: [
