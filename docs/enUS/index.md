@@ -43,4 +43,6 @@ This site uses a lot of high-resolution images, and if you are using mobile data
 
 :::warning
 Since Starcloudsea's English is very poor, the vast majority of the site has been translated by DeepL, so if you think there's a mistake in some parts of the translation, please leave a comment here or mention an issue on GitHub! awa
+
+English pages are missing a lot of content compared to Chinese pages.
 :::

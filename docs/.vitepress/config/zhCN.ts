@@ -239,7 +239,7 @@ export const zhCNConfig = defineConfig({
     externalLinkIcon: true,
 
     footer: {
-      message: '网站使用 <a href="https://github.com/Starcloudsea/StarseaDB/blob/main/LICENSE">Apache 2.0</a> 开源协议，并在 <a href="https://github.com/Starcloudsea/StarseaDB">GitHub Pages</a> 上部署(拜托给我点个Star QAQ)<br/>该网站<strong>由Starcloudsea创作并发布的所有内容</strong>在<strong>不特别标注</strong>的情况下，对于非商业内容，使用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"</a>CC BY-NC-SA 4.0</a>协议共享，对于商业内容，使用<a href="https://creativecommons.org/licenses/by-sa/4.0/"</a>CC BY-SA 4.0</a>协议共享',
+      message: '网站使用 <a href="https://github.com/Starcloudsea/StarseaDB/blob/main/LICENSE">Apache 2.0</a> 开源协议，并在 <a href="https://github.com/Starcloudsea/StarseaDB">GitHub Pages</a> 上部署(拜托给我点个Star QAQ)<br/>该网站<strong>由Starcloudsea创作并发布的所有内容</strong>在<strong>不特别标注</strong>的情况下，对于非盈利内容，使用<a href="https://creativecommons.org/licenses/by-nc-sa/4.0/"</a>CC BY-NC-SA 4.0</a>协议共享，对于盈利内容，使用<a href="https://creativecommons.org/licenses/by-sa/4.0/"</a>CC BY-SA 4.0</a>协议共享',
       copyright: '<a href="https://github.com/Starcloudsea">Starcloudsea</a> & <a href="https://github.com/BadMC-Studio">BadMC Studio</a> 版权所有 2024'
     },
   }
