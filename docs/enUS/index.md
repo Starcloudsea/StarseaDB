@@ -7,7 +7,7 @@ hero:
     alt: Main HomeImage
   name: "Starcloudsea D&B"
   text: "Starcloudsea's dysfunctional website"
-  tagline: The blog and documentation of the Nebula Sea Monster, who wants to do everything but \"doesn't know anything\" about editing videos and writing code (but will climb up to your window at night ψ(｀∇´)ψ)
+  tagline: The blog and documentation of the Nebula Sea Monster, who wants to do everything but "doesn't know anything" about editing videos and writing code (but will climb up to your window at night ψ(｀∇´)ψ)
   actions:
     - theme: brand
       text: Blogs
