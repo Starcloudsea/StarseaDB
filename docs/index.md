@@ -15,6 +15,6 @@ hero:
       text: English(US)
       link: /enUS/
   image:
-    src: /docs/Language.png
+    src: /Images/docs/Language.png
     alt: SelectLanguage
 ---

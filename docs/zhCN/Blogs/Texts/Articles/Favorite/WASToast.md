@@ -56,7 +56,7 @@ a.Show();
 至于a.AddArgument("action", "viewConversation");
 a.AddArgument("conversationId", 9813);的意思，你可以参考下NewBing的回答：
 
-![Bing的对话](/docs/Shared/Blogs/Articles/Favorite/WASToast/Bing.png)
+![Bing的对话](/Images/docs/Shared/Blogs/Articles/Favorite/WASToast/Bing.png)
 
 至于AddText，不用多说了吧，自己运行看看（
 
@@ -110,7 +110,7 @@ private static void ToastNotificationManagerCompat_OnActivated(CommunityToolkit.
 
 好，如果你的代码是现抄的，那么你在执行第二步的代码时，会发现有通知出来了（记得把勿扰模式关掉）：
 
-![Toast通知弹出](/docs/Shared/Blogs/Articles/Favorite/WASToast/Toast.png)
+![Toast通知弹出](/Images/docs/Shared/Blogs/Articles/Favorite/WASToast/Toast.png)
 
 如果你点击了“Like”按钮，你会发现输出中出现了：
 

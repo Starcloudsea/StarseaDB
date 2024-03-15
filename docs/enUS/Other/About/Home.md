@@ -8,7 +8,7 @@ title: Home
     title="Starcloudsea" 
     subtitle="A Minecraft player" 
     tagline="I want to do everything (I am so tired QAQ)">
-    <img src="/docs/Shared/About/Home/EllipseStarcloudsea.png" alt="Pictures of the home page of the About Starcloudsea page" title="I didn't find it online, I made it myself~" style="max-width: 200px; max-height: 200px; padding-bottom: 30px;"/>
+    <img src="/Images/docs/Shared/About/Home/EllipseStarcloudsea.png" alt="Pictures of the home page of the About Starcloudsea page" title="I didn't find it online, I made it myself~" style="max-width: 200px; max-height: 200px; padding-bottom: 30px;"/>
 </subhome>
 
 # Work in progress: a bunch of stuff

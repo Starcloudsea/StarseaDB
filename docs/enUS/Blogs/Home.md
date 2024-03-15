@@ -5,7 +5,7 @@ title: Home
 
 hero:
   image:
-      src: /docs/Shared/Blogs/BlogsHome.png
+      src: /Images/docs/Shared/Blogs/BlogsHome.png
       alt: Blogs HomeImage
   name: "Starcloudsea's Blogs"
   text: "Starcloudsea's got a bunch of stuff piled up in here."

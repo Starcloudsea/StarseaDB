@@ -3,7 +3,7 @@ layout: home
 
 hero:
   image:
-    src: /docs/Shared/MainHome.png
+    src: /Images/docs/Shared/MainHome.png
     alt: Main HomeImage
   name: "Starcloudsea D&B"
   text: "Starcloudsea's dysfunctional website"
@@ -18,12 +18,12 @@ hero:
 
 features:  
   - icon: 
-      src: /docs/Shared/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/BlockMetroAvalonia.png
+      src: /Images/docs/Shared/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/BlockMetroAvalonia.png
     title: BlockMetro.Avalonia
     details: Windows 8.1's MetroUI is so cool!
     link: ./Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/Home
   - icon: 
-      src: /docs/Shared/Docs/OtherPersonProjectDocs/MinecraftLaunch/MinecraftLaunch.png
+      src: /Images/docs/Shared/Docs/OtherPersonProjectDocs/MinecraftLaunch/MinecraftLaunch.png
     title: MinecraftLaunch
     details: This is a C# library to help you develop Minecraft launchers faster and easier!
     link: ./Docs/OtherPersonProjectDocs/MinecraftLaunch/Home

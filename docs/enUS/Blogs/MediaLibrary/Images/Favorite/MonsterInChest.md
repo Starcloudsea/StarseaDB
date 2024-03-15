@@ -11,5 +11,5 @@ title: There's something in your suitcase😜
         {'text': 'Filters', 'value': 'I forgot 😅'},
         {'text': 'resolution', 'value': '1920x1080'},
     ]">
-    <img src="/docs/Shared/Blogs/MediaLibrary/Images/Favorite/MonsterInChest/RTX(No).png" title="To make a picture like this, I just went to a light (no, I added a filter😜)"/>
+    <img src="/Images/docs/Shared/Blogs/MediaLibrary/Images/Favorite/MonsterInChest/RTX(No).png" title="To make a picture like this, I just went to a light (no, I added a filter😜)"/>
 </imageview>

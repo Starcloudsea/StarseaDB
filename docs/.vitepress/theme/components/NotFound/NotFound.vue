@@ -6,7 +6,7 @@ const { site } = useData()
 
 <template>
   <div class="NotFound">
-    <img src="/docs/NotFoundPage.png"/>
+    <img src="/Images/docs/NotFoundPage.png"/>
     <h1 class="title">ERROR 404</h1>
     <h1 class="subtitle">Page Not Found</h1>
     <p class="information">

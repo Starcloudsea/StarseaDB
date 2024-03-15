@@ -6,7 +6,7 @@ export const sharedConfig = defineConfig({
   title: "Starcloudsea D&B",
   description: "The blog and documentation of the Nebula Sea Monster, who wants to do everything but \"doesn't know anything\" about editing videos and writing code (but will climb up to your window at night ψ(｀∇´)ψ)",
   head: [
-    ['link', { rel: 'icon', href: '/PageIcons/StarseaD&B.ico' }]
+    ['link', { rel: 'icon', href: '/Images/PageIcons/StarseaD&B.ico' }]
   ],
   lastUpdated: true,
   cleanUrls: true,

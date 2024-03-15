@@ -13,5 +13,5 @@ title: Home
         { target: '_blank', class: 'VPButton medium brand', text: 'Source code on GitHub', link: 'https://github.com/Blessing-Studio/MinecraftLaunch' },
         { target: '_blank', class: 'VPButton medium alt', text: 'official document', link: 'https://blessingta.link' }
     ]">
-    <img src="/docs/Shared/Docs/OtherPersonProjectDocs/MinecraftLaunch/MinecraftLaunch.png" alt="Pictures of MinecraftLaunch's homepage" title="I don't know why the pictures are so small Σ(っ °Д °;)っ" class="subhomeimg"/>
+    <img src="/Images/docs/Shared/Docs/OtherPersonProjectDocs/MinecraftLaunch/MinecraftLaunch.png" alt="Pictures of MinecraftLaunch's homepage" title="I don't know why the pictures are so small Σ(っ °Д °;)っ" class="subhomeimg"/>
 </subhome>

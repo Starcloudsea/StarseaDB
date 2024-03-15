@@ -3,7 +3,7 @@ layout: home
 
 hero:
   image:
-    src: /docs/Shared/MainHome.png
+    src: /Images/docs/Shared/MainHome.png
     alt: Main HomeImage
   name: "Starcloudsea D&B"
   text: "某不正经Starcloudsea网站🤪"
@@ -18,12 +18,12 @@ hero:
 
 features:  
   - icon: 
-      src: /docs/Shared/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/BlockMetroAvalonia.png
+      src: /Images/docs/Shared/Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/BlockMetroAvalonia.png
     title: BlockMetro.Avalonia
     details: 你应该知道Starcloudsea有多喜欢Windows 8.1的MetroUI吧（
     link: ./Docs/StarcloudseaProjectDocs/BlockMetroAvalonia/Home
   - icon: 
-      src: /docs/Shared/Docs/OtherPersonProjectDocs/MinecraftLaunch/MinecraftLaunch.png
+      src: /Images/docs/Shared/Docs/OtherPersonProjectDocs/MinecraftLaunch/MinecraftLaunch.png
     title: MinecraftLaunch
     details: 你应该知道Starcloudsea有多喜欢Windows 8.1的MetroUI吧（
     link: ./Docs/OtherPersonProjectDocs/MinecraftLaunch/Home

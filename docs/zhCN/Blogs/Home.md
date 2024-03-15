@@ -5,7 +5,7 @@ title: Home
 
 hero:
   image:
-      src: /docs/Shared/Blogs/BlogsHome.png
+      src: /Images/docs/Shared/Blogs/BlogsHome.png
       alt: Blogs HomeImage
   name: "Starcloudsea 的Blogs"
   text: "发一堆没用的东西"

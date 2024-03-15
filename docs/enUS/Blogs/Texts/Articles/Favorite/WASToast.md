@@ -67,7 +67,7 @@ a.Show();
 It is not clear to me what a.AddArgument("action", "viewConversation");
 a.AddArgument("conversationId", 9813); means, but you can refer to Bing's answer:
 
-![Conversations with Bing](/docs/Shared/Blogs/Articles/Favorite/WASToast/Bing.png)
+![Conversations with Bing](/Images/docs/Shared/Blogs/Articles/Favorite/WASToast/Bing.png)
 
 As for AddText, it obviously adds text to the Toast notification.
 
@@ -121,7 +121,7 @@ If you want to create multiple buttons then you just need to add a couple more A
 
 OK, if you copied most of your code from this post, then your program will find that a Toast notification pops up on Windows when executing the sample code in step 2 (if it doesn't, you may need to check that your Do Not Disturb mode is turned on):
 
-![Windows pops up a Toast notification](/docs/Shared/Blogs/Articles/Favorite/WASToast/Toast.png)
+![Windows pops up a Toast notification](/Images/docs/Shared/Blogs/Articles/Favorite/WASToast/Toast.png)
 
 If you click on the "Like" button, you will find it in the output of your program:
 
