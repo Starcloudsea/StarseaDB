@@ -11,7 +11,7 @@ export const sharedConfig = defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   themeConfig: {
-    logo: '/PageIcons/StarseaD&B.svg',
+    logo: '/Images/PageIcons/StarseaD&B.svg',
     
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Starcloudsea' },
