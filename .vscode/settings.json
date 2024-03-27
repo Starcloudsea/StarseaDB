@@ -1,0 +1,12 @@
+{
+    "markdown.copyFiles.destination": {
+        "/docs/zhCN/Blogs/Texts/News/**/*.md": "/docs/public/Images/docs/Shared/Blogs/Texts/News/${documentBaseName}/",
+        "/docs/zhCN/Blogs/Texts/Articles/**/*.md": "/docs/public/Images/docs/Shared/Blogs/Texts/Articles/${documentBaseName}/",
+        "/docs/zhCN/Blogs/Resources/Pieces/**/*.md": "/docs/public/Images/docs/Shared/Blogs/Resources/Pieces/${documentBaseName}/",
+        "/docs/zhCN/Blogs/Resources/Share/**/*.md": "/docs/public/Images/docs/Shared/Blogs/Resources/Share/${documentBaseName}/",
+        "/docs/zhCN/Blogs/MediaLibrary/Audios/**/*.md": "/docs/public/Images/docs/Shared/Blogs/MediaLibrary/Audios/${documentBaseName}/",
+        "/docs/zhCN/Blogs/MediaLibrary/Images/**/*.md": "/docs/public/Images/docs/Shared/Blogs/MediaLibrary/Images/${documentBaseName}/",
+        "/docs/zhCN/Blogs/MediaLibrary/Videos/**/*.md": "/docs/public/Images/docs/Shared/Blogs/MediaLibrary/Videos/${documentBaseName}/"
+    },
+    "markdown.editor.pasteUrlAsFormattedLink.enabled": "smart",
+}

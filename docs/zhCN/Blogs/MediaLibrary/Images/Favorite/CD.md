@@ -11,5 +11,5 @@ title: 废稿（可恶）
         {'text': '滤镜', 'value': '忘了😅'},
         {'text': '分辨率', 'value': '2160x2160'},
     ]">
-    <img src="/Images/docs/Shared/Blogs/MediaLibrary/Images/Favorite/CD/无标题.png"/>
+    <img src="/Images/docs/Shared/Blogs/MediaLibrary/Images/CD/无标题.png"/>
 </imageview>

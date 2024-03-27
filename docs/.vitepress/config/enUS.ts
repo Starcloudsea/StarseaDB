@@ -10,19 +10,6 @@ export const enUSConfig = defineConfig({
   themeConfig: {
 
     sidebar: generateSidebar([
-      //About
-      {
-        debugPrint: true,
-        documentRootPath: '/docs',
-        scanStartPath: 'enUS/Other/',
-        resolvePath: '/enUS/Other/',
-        useFolderTitleFromIndexFile: true,
-        useTitleFromFrontmatter: true,
-        sortMenusByName: true,
-        includeEmptyFolder: true,
-        collapseDepth: 10,
-        rootGroupText: 'Other'
-      },
       //Blogs -> Texts : News
       {
         documentRootPath: '/docs',
@@ -155,17 +142,23 @@ export const enUSConfig = defineConfig({
         collapseDepth: 10,
         rootGroupText: 'MinecraftLaunch',
       },
+      //Other
+      {
+        debugPrint: true,
+        documentRootPath: '/docs',
+        scanStartPath: 'enUS/Other/',
+        resolvePath: '/enUS/Other/',
+        useFolderTitleFromIndexFile: true,
+        useTitleFromFrontmatter: true,
+        sortMenusByName: true,
+        includeEmptyFolder: true,
+        collapseDepth: 10,
+        rootGroupText: 'Other'
+      },
     ]),
     
     nav: [
       { text: 'Home', link: '/enUS/' },
-      { text: 'Other', items: [
-        {text: 'About Starcloudsea', 
-          items: [
-            { text: 'Home', link: '/zhCN/Other/About/Home' },
-          ]},
-        {text: 'Friendly Link', link: '/zhCN/Other/FriendlyLinks'},
-      ]},
       {
         text: 'Blogs',
         items: [
@@ -214,7 +207,14 @@ export const enUSConfig = defineConfig({
             ]
           },
         ]
-      }
+      },
+      { text: 'Other', items: [
+        {text: 'About Starcloudsea', 
+          items: [
+            { text: 'Home', link: '/zhCN/Other/About/Home' },
+          ]},
+        {text: 'Friendly Link', link: '/zhCN/Other/FriendlyLinks'},
+      ]}
     ],
 
     editLink: {

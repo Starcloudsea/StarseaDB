@@ -8,19 +8,6 @@ export const zhCNConfig = defineConfig({
   themeConfig: {
     
     sidebar: generateSidebar([
-      //About
-      {
-        debugPrint: true,
-        documentRootPath: '/docs',
-        scanStartPath: 'zhCN/Other',
-        resolvePath: '/zhCN/Other/',
-        useFolderTitleFromIndexFile: true,
-        useTitleFromFrontmatter: true,
-        sortMenusByName: true,
-        includeEmptyFolder: true,
-        collapseDepth: 10,
-        rootGroupText: '其它'
-      },
       //Blogs -> Texts : News
       {
         documentRootPath: '/docs',
@@ -153,17 +140,23 @@ export const zhCNConfig = defineConfig({
         collapseDepth: 10,
         rootGroupText: 'MinecraftLaunch',
       },
+      //About
+      {
+        debugPrint: true,
+        documentRootPath: '/docs',
+        scanStartPath: 'zhCN/Other',
+        resolvePath: '/zhCN/Other/',
+        useFolderTitleFromIndexFile: true,
+        useTitleFromFrontmatter: true,
+        sortMenusByName: true,
+        includeEmptyFolder: true,
+        collapseDepth: 10,
+        rootGroupText: '其它'
+      }
     ]),
 
     nav: [
       { text: 'Home', link: '/zhCN/' },
-      { text: '其它', items: [
-        {text: '关于Starcloudsea', 
-          items: [
-            { text: 'Home', link: '/zhCN/Other/About/Home' },
-          ]},
-        {text: '友情链接', link: '/zhCN/Other/FriendlyLinks'},
-      ]},
       {
         text: 'Blogs',
         items: [
@@ -212,7 +205,14 @@ export const zhCNConfig = defineConfig({
             ]
           },
         ]
-      }
+      },
+      { text: '其它', items: [
+        {text: '关于Starcloudsea', 
+          items: [
+            { text: 'Home', link: '/zhCN/Other/About/Home' },
+          ]},
+        {text: '友情链接', link: '/zhCN/Other/FriendlyLinks'},
+      ]}
     ],
 
     editLink: {

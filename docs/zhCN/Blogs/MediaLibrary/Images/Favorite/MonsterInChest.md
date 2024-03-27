@@ -11,5 +11,5 @@ title: 你箱子里面有东西哦（（（
         {'text': '滤镜', 'value': '忘了😅'},
         {'text': '分辨率', 'value': '1920x1080'},
     ]">
-    <img src="/Images/docs/Shared/Blogs/MediaLibrary/Images/Favorite/MonsterInChest/RTX(No).png" title="只是去了个灯光而已(我才不会告诉你我还加了个滤镜)"/>
+    <img src="/Images/docs/Shared/Blogs/MediaLibrary/Images/MonsterInChest/RTX(No).png" title="只是去了个灯光而已(我才不会告诉你我还加了个滤镜)"/>
 </imageview>
