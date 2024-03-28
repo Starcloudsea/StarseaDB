@@ -48,3 +48,7 @@ features:
     details: Since the videos are only posted on Bilibili, maybe they're not accessible in your area. :(
     link: ./MediaLibrary/Videos/Home
 ---
+
+:::tip
+Normally Starcloudsea wouldn't want to post content here, but rather on the Chinese page (since it's more familiar with Chinese).
+:::
