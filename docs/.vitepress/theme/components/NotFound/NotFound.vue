@@ -59,6 +59,24 @@ img {
   white-space: pre-wrap;
   color: var(--vp-c-text-2);
 }
+.brandbutton {
+  border-color: var(--vp-button-brand-border);
+  color: var(--vp-button-brand-text);
+  background-color: var(--vp-button-brand-bg);
+  border-radius: 20px;
+  padding: 0 20px;
+  line-height: 38px;
+  font-size: 14px;
+  display: inline-block;
+  border: 1px solid transparent;
+  text-align: center;
+  font-weight: 600;
+  white-space: nowrap;
+  transition: color 0.25s, border-color 0.25s, background-color 0.25s;
+  text-decoration: none;
+  margin-right: 5px;
+  margin-left: 5px
+}
 .action {
   padding-top: 20px;
 }
