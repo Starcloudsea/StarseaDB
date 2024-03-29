@@ -12,6 +12,7 @@ const { site } = useData()
     <p class="information">
       We can't find the page that this link navigates to.
       <br/>It could be because you entered the wrong URL or simply because Starcloudsea didn't write it.
+      <br/>(Of course, it could just be that Starcloudsea posted something new and is building it now. OwO)
       <br/>If this is indeed a bug, please open an issues on GitHub.
     </p>
     <div class="action">
