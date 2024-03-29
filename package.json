@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "docs:dev": "vitepress dev docs --port 3034",
+    "docs:dev": "vitepress dev docs --port 3034 --open",
     "docs:build": "vitepress build docs --port 3034",
     "docs:preview": "vitepress preview docs --port 3034"
   },
