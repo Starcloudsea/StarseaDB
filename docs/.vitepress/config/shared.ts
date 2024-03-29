@@ -3,10 +3,11 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export const sharedConfig = defineConfig({
   base: '/StarseaDB/',
+  outDir: "../public",
   title: "Starcloudsea D&B",
   description: "The blog and documentation of the Nebula Sea Monster, who wants to do everything but \"doesn't know anything\" about editing videos and writing code (but will climb up to your window at night ψ(｀∇´)ψ)",
   head: [
-    ['link', { rel: 'icon', href: '/Images/PageIcons/StarseaD&B.ico' }]
+    ['link', { rel: 'icon', href: '/Images/PageIcons/StarseaDB.ico' }]
   ],
   lastUpdated: true,
   cleanUrls: true,
