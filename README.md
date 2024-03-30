@@ -24,11 +24,27 @@ Starcloudsea的Blogs和Docs（D&B）
 
 # 使用的库
 
+## [Vue.Js](https://github.com/vuejs/vitepress)
+
+🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
+
+> 如果你想要搭建一个轻量化网站，这个框架绝对适合你(。・ω・。)
+
+开源协议：MIT
+
+## [Vite](https://github.com/vuejs/vitepress)
+
+Next generation frontend tooling. It's fast!
+
+> 说实话我对Vite不太熟悉，无法评价😅（也许速度确实很快，但我只用过Vite开发正经网页OwO）
+
+开源协议：MIT
+
 ## [VitePress](https://github.com/vuejs/vitepress)
 
 Vite & Vue powered static site generator.
 
-> 虽然只是个静态文本系统，但是稍微设置一下当个Blog也很不错（UI也很好看！）
+> 虽然只是个静态文档网站，但是稍微设置一下当个Blog也很不错（UI也很好看！）
 
 开源协议：MIT
 
