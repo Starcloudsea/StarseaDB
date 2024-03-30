@@ -18,4 +18,40 @@ Starcloudsea的Blogs和Docs（D&B）
 
 ## 来来来快来[这里](https://starcloudsea.github.io/StarseaDB)看一下awa
 
+### 没事的如果你进不去或者很卡你来[这里](https://starcloudsea.gitlab.io/StarseaDB)也一样（
+
 </div>
+
+# 使用的库
+
+## [VitePress](https://github.com/vuejs/vitepress)
+
+Vite & Vue powered static site generator.
+
+> 虽然只是个静态文本系统，但是稍微设置一下当个Blog也很不错（UI也很好看！）
+
+开源协议：MIT
+
+## [vitePress-sidebar](https://github.com/jooy2/vitepress-sidebar)
+
+🔌 VitePress Sidebar is a plugin for VitePress that automatically configures and manages the sidebar of your page with simple settings.
+
+> 解决了VitePress作为Blog使用的最大难题————自动侧边栏;)
+
+开源协议：MIT
+
+## [TypeScript](https://github.com/microsoft/TypeScript)
+
+TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
+
+> TypeScript绝对是网站的绝配:)（对我来说，也许对你来说有你认为更好的）
+
+开源协议：MIT
+
+## [giscus](https://github.com/giscus/giscus)
+
+A comment system powered by GitHub Discussions. :octocat: 💬 💎
+
+> 非常非常漂亮且高效还方便的评论系统！awa
+
+开源协议：MIT
