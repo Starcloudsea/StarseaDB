@@ -5,6 +5,7 @@
     "docs:preview": "vitepress preview docs --port 3034"
   },
   "devDependencies": {
+    "husky": "^9.0.11",
     "vitepress": "^1.0.0-rc.44",
     "vitepress-sidebar": "^1.19.0",
     "vue": "^3.4.21"
