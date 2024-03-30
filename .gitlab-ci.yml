@@ -9,6 +9,6 @@ pages:
     - npm run docs:build
   artifacts:
     paths:
-      - docs/.vitepress/publish
+      - docs/.vitepress/public
   only:
     - main

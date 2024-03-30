@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export const sharedConfig = defineConfig({
   base: '/StarseaDB/',
-  outDir: ".vitepress/publish",
+  outDir: ".vitepress/public",
   title: "Starcloudsea D&B",
   description: "The blog and documentation of the Nebula Sea Monster, who wants to do everything but \"doesn't know anything\" about editing videos and writing code (but will climb up to your window at night ψ(｀∇´)ψ)",
   head: [
