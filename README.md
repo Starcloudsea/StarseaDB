@@ -24,7 +24,7 @@ Starcloudsea的Blogs和Docs（D&B）
 
 # 使用的库
 
-## [Vue.Js](https://github.com/vuejs/vitepress)
+## [Vue.Js](https://github.com/vuejs/core)
 
 🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.
 
@@ -32,7 +32,7 @@ Starcloudsea的Blogs和Docs（D&B）
 
 开源协议：MIT
 
-## [Vite](https://github.com/vuejs/vitepress)
+## [Vite](https://github.com/vitejs/vite)
 
 Next generation frontend tooling. It's fast!
 
