@@ -46,7 +46,7 @@ TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
 
 > TypeScript绝对是网站的绝配:)（对我来说，也许对你来说有你认为更好的）
 
-开源协议：MIT
+开源协议：Apache-2.0 license
 
 ## [giscus](https://github.com/giscus/giscus)
 
