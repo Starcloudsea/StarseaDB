@@ -8,13 +8,13 @@
             data-repo-id="R_kgDOLYAhKw"
             data-category="Commentaries"
             data-category-id="DIC_kwDOLYAhK84Cd6h4"
-            data-mapping="url"
+            data-mapping="title"
             data-strict="1"
             data-reactions-enabled="1"
             data-emit-metadata="0"
             data-input-position="top"
             data-theme="dark_tritanopia"
-            data-lang="zh-CN"
+            :data-lang="lang === 'zh-CN' ? 'zh-CN' : 'en'"
             crossorigin="anonymous"
             async>
         </component>
@@ -26,13 +26,13 @@
             data-repo-id="R_kgDOLYAhKw"
             data-category="Commentaries"
             data-category-id="DIC_kwDOLYAhK84Cd6h4"
-            data-mapping="url"
+            data-mapping="title"
             data-strict="1"
             data-reactions-enabled="1"
             data-emit-metadata="0"
             data-input-position="top"
             data-theme="light_tritanopia"
-            data-lang="zh-CN"
+            :data-lang="lang === 'zh-CN' ? 'zh-CN' : 'en'"
             crossorigin="anonymous"
             async>
         </component>
@@ -43,6 +43,7 @@
     import { useData } from 'vitepress';
     // 获取当前配色方案
     const { isDark } = useData();
+    const { lang } = useData();
 </script>
 
 <style scoped>
