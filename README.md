@@ -16,9 +16,9 @@ Starcloudsea的Blogs和Docs（D&B）
 ![OpenIssues](https://img.shields.io/github/issues/Starcloudsea/StarseaDB?style=for-the-badge&logo=github&color=%230077FF)
 ![OpenPR](https://img.shields.io/github/issues-pr-raw/Starcloudsea/StarseaDB?style=for-the-badge&logo=github&color=%230077FF)
 
-## 来来来快来[这里](https://starcloudsea.github.io/StarseaDB)看一下awa
+## 来来来快来[这里](https://starcloudsea.github.io/StarseaDB/)看一下awa
 
-### 没事的如果你进不去或者很卡你来[这里](https://starcloudsea.gitlab.io/StarseaDB)也一样（
+### 没事的如果你进不去或者很卡你来[这里](https://starcloudsea.gitlab.io/StarseaDB/)也一样（
 
 </div>
 
