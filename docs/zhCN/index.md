@@ -10,6 +10,9 @@ hero:
   tagline: 啥都想搞的Starcloudsea怪物的博客和文档，"完全不懂"剪视频和写代码(但会晚上爬你窗子ψ(｀∇´)ψ)
   actions:
     - theme: brand
+      text: '???'
+      link: https://www.bilibili.com/video/BV1GJ411x7h7/
+    - theme: brand
       text: Blogs
       link: /zhCN/Blogs/Home
     - theme: alt
