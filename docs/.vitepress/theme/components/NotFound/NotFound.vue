@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
 import { useData } from 'vitepress'
 const { site } = useData()
 </script>
@@ -16,7 +15,8 @@ const { site } = useData()
       <br/>If this is indeed a bug, please open an issues on GitHub.
     </p>
     <div class="action">
-      <a class="brandbutton" :href="site.base" aria-label="Back to Home"> Back to Home </a>
+      <a id="brandbutton" :href="site.base" aria-label="Back to Home"> Back to Home </a>
+      <a id="brandbutton" target="_blank" href="https://www.bilibili.com/video/BV1GJ411x7h7" aria-label="???"> ??? </a>
     </div>
   </div>
 </template>
@@ -59,24 +59,6 @@ img {
   font-weight: 500;
   white-space: pre-wrap;
   color: var(--vp-c-text-2);
-}
-.brandbutton {
-  border-color: var(--vp-button-brand-border);
-  color: var(--vp-button-brand-text);
-  background-color: var(--vp-button-brand-bg);
-  border-radius: 20px;
-  padding: 0 20px;
-  line-height: 38px;
-  font-size: 14px;
-  display: inline-block;
-  border: 1px solid transparent;
-  text-align: center;
-  font-weight: 600;
-  white-space: nowrap;
-  transition: color 0.25s, border-color 0.25s, background-color 0.25s;
-  text-decoration: none;
-  margin-right: 5px;
-  margin-left: 5px
 }
 .action {
   padding-top: 20px;

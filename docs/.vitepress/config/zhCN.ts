@@ -201,6 +201,7 @@ export const zhCNConfig = defineConfig({
             text: '别人项目的文档',
             items: [
               { text: 'MinecraftLaunch', link: '/zhCN/Docs/OtherPersonProjectDocs/MinecraftLaunch/Home' },
+              { text: 'Architectury', link: '/zhCN/Docs/OtherPersonProjectDocs/Architectury/Home' },
               { text: '其它文档', link: '/zhCN/Docs/OtherPersonProjectDocs/OtherDocs/Home' },
             ]
           },

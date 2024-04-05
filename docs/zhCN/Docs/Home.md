@@ -28,6 +28,11 @@ features:
   - icon: 
       src: /Images/docs/Shared/Docs/OtherPersonProjectDocs/MinecraftLaunch/MinecraftLaunch.png
     title: MinecraftLaunch
-    details: 这是一个基于C#的跨平台Minecraft启动核心，这只是这个核心的一个教程(核心作者：Xilu)
+    details: 这是一个基于C#的跨平台Minecraft启动核心，这只是这个核心的一个教程
     link: ./OtherPersonProjectDocs/MinecraftLaunch/Home
+  - icon: 
+      src: /Images/docs/Shared/Docs/OtherPersonProjectDocs/Architectury/MinecraftLaunch.png
+    title: Architectury
+    details: 一个可以让你同时为多个Mod加载器开发Mod的框架.
+    link: ./OtherPersonProjectDocs/Architectury/Home
 ---
