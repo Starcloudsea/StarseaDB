@@ -49,9 +49,10 @@
   --vp-c-default-3: var(--vp-c-gray-3);
   --vp-c-default-soft: var(--vp-c-gray-soft);
 
-  --vp-c-brand-1: #00AAFF;
+  --vp-c-brand-1: #0077FF;
   --vp-c-brand-2: #0088FF;
   --vp-c-brand-3: #0077ff;
+  --vp-c-brand-4: #00AAFF;
   --vp-c-brand-soft: #0077ff30;
 
   --vp-c-tip-1: var(--vp-c-brand-1);
@@ -83,7 +84,7 @@
   --vp-button-brand-hover-bg: var(--vp-c-brand-2);
   --vp-button-brand-active-border: transparent;
   --vp-button-brand-active-text: var(--vp-c-white);
-  --vp-button-brand-active-bg: var(--vp-c-brand-1);
+  --vp-button-brand-active-bg: var(--vp-c-brand-4);
 }
 
 /**
