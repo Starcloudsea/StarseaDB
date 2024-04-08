@@ -330,7 +330,9 @@ public class MODMCMCNeoForge { // [!code ++]
     然后，你的Fabric就可以使用Kotlin了，不过别人想要使用你Mod的话就需要加Fabric Language Kotlin这个Mod作为前置😜
 
     :::tip
-    如果你在构建时遇到了Gson的报错（比如这个：`Can not set final java.util.Map field net.fabricmc.loom.configuration.providers.minecraft.ManifestVersion.latest to com.google.gson.internal.LinkedTreeMap`），那么这很有可能是因为你没有删除`implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"`代码，这是必须的，因为Gson不支持Java 8，但是Kotlin的默认配置依旧在使用，这会导致一些报错.在Fabric的官方文档也告诉了需要替换而不是添加`modImplementation("net.fabricmc:fabric-language-kotlin:<Fabric Language Kotlin版本>+kotlin.<Kotlin版本>")`代码.
+    如果你在构建时遇到了Gson的报错（比如这个：`Can not set final java.util.Map field net.fabricmc.loom.configuration.providers.minecraft.ManifestVersion.latest to com.google.gson.internal.LinkedTreeMap`），你可以把org.gradle.toolchains.foojay-resolver-convention更新一下（最新版本是个不错的选择awa）
+    **下面的内容是废弃的：**
+    ~~那么这很有可能是因为你没有删除`implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"`代码，这是必须的，因为Gson不支持Java 8，但是Kotlin的默认配置依旧在使用，这会导致一些报错.在Fabric的官方文档也告诉了需要替换而不是添加`modImplementation("net.fabricmc:fabric-language-kotlin:<Fabric Language Kotlin版本>+kotlin.<Kotlin版本>")`代码.~~
     :::
 
 3. 对于Forge/NeoForge，你需要这样做：
