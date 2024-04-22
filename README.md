@@ -1,3 +1,6 @@
+> [!TIP]
+> 在DrownedOwO开发完成后，这个网站可能会迁移到DrownedOwO。
+
 <div align="center">
 
 <img width="30%" height="30%" src="https://github.com/Starcloudsea/StarseaDB/assets/84891987/372e59e2-5830-41e0-ab51-8ab702142098"/>
