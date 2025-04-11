@@ -1,5 +1,5 @@
-> [!TIP]
-> 在DrownedOwO开发完成后，这个网站可能会迁移到DrownedOwO。
+> [!CAUTION]
+> StarseaDB 现在将成为 [DrownedOwO](https://github.com/Starcloudsea/DrownedOwO), StarseaDB即刻将成为历史😰
 
 <div align="center">
 
